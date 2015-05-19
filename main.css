@@ -10,10 +10,28 @@ section h2{
   background-color: #00C6D6;
   color: white;
   margin-top: 0px;
+  margin-bottom: 0px;
+  border: 1px solid #00DAEC;
+}
+
+section h2:hover{
+  background-color: #00DAEC;
 }
 
 p {
   font-family: 'Titillium Web', sans-serif;
   padding: 15px;
 }
+
+section {
+  overflow: hidden;
+  height: 78px;
+  transition: all .5s ease;
+}
+
+.home {
+  height: 300px;
+
+}
+
 
